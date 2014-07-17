@@ -6,8 +6,10 @@
 sudo apt-get update
 sudo apt-get install curl
 \curl -L https://get.rvm.io | bash -s stable
+#in a new shell
 source ~/.rvm/scripts/rvm
 rvm requirements
+#enter root password
 
 # Install Ruby
 rvm install ruby
@@ -18,3 +20,6 @@ rvm rubygems current
 
 # Install Rails
 gem install rails
+
+#install nodejs
+sudo apt-get install nodejs
